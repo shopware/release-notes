@@ -1,0 +1,1 @@
+# Shopware release notes
