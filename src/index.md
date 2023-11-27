@@ -51,8 +51,6 @@ For questions on how to install a release please refer to the [documentation](ht
 
 ## Release cycles
 
-* Major
-	* Once a year
 * Minor
 	* Every first Monday of the month
 * Patch
