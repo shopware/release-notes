@@ -1,7 +1,17 @@
 ---
-sidebar:
-  orientation: descending
-
+meta:
+	orientation: descending
+items:
+  - text: References
+    items:
+      - text: GitHub releases
+        link: "https://github.com/shopware/shopware/releases"
+      - text: Forum news
+        link: "https://forum.shopware.com/"
+      - text: Changelog
+        link: "https://www.shopware.com/en/changelog/"
+      - text: Security audit report
+        link: "https://github.com/shopware/shopware/security/advisories?state=published"
 ---
 
 # Shopware Release Policy
