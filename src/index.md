@@ -1,6 +1,6 @@
 ---
 meta:
-	orientation: descending
+  orientation: descending
 items:
   - text: References
     items:
