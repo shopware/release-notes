@@ -2,6 +2,8 @@
 meta:
   orientation: descending
 items:
+  - text: Overview
+    link: "../src/index.md"
   - text: References
     items:
       - text: GitHub releases
