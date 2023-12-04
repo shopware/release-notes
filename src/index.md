@@ -1,9 +1,10 @@
 ---
+items:
+  - text: Overview
+    link: "../../release-notes/src/index.md"
 meta:
   orientation: descending
 items:
-  - text: Overview
-    link: "../src/index.md"
   - text: References
     items:
       - text: GitHub releases
