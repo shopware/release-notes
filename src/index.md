@@ -6,7 +6,7 @@ items:
     items:
       - text: Overview
         link: "/release-notes/"
-  - "menu"
+  - generate: true
   - text: References
     items:
       - text: GitHub releases
