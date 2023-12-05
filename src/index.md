@@ -2,6 +2,11 @@
 meta:
   orientation: descending
 items:
+  - text: Release notes
+    items:
+      - text: Overview
+        link: "/release-notes/"
+  - "menu"
   - text: References
     items:
       - text: GitHub releases
