@@ -21,6 +21,19 @@ items:
 
 # Shopware Release Policy
 
+## Release Calendar
+
+![Version Chart](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg)
+
+This version chart shows which Shopware versions are currently supported in which way. You will see the following states:
+
+*  **Maintained version**: This is the latest minor version of the current major cycle and is actively supported with patch updates if necessary. Every minor version will be superseded by the next minor version release.
+*  **Extended support**: The last minor version of a major cycle will get extended patch updates with selective bug fixes and security updates.
+*  **Security fixes only**: The version is provided with security fixes only. The fixes are provided via a security plugin, but not via direct patch update.
+*  **End of life version**: The version isn't actively supported anymore. You should update as soon as possible.
+
+Continue reading if you want to learn more about the different version types and release cycles.
+
 ## Release management at Shopware
 
 Releasing new versions of Shopware is essential to stay competitive in the market and offer merchants benefits through the introduction of new features, adjustments to existing ones, or enhancements to the underlying architecture of Shopware.
@@ -66,10 +79,12 @@ For questions on how to install a release please refer to the [documentation](ht
 
 ## Release cycles
 
+* Major  
+    * Once a year.
 * Minor
-	* Every first Monday of the month
+	* Every first Monday of the month.
 * Patch
-	* Anytime, but only when necessary
+	* Anytime, but only on demand.
 
 ## What effects does a release have
 
