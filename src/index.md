@@ -21,6 +21,19 @@ items:
 
 # Shopware Release Policy
 
+## Release Calendar
+
+![Version Chart](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg)
+
+This version chart shows which Shopware versions are currently supported in which way. You will see the following states:
+
+*  **Maintained version**: This is the latest minor version of the current major cycle and is actively supported with patch updates if necessary. Every minor version will be superseded by the next minor version.
+*  **Extended support**: The last minor version of a major cycle will get extended patch updates with selective bug fixes and security updates.
+*  **Security fixes only**: The version is provided with security fixes only. The fixes are provided via a security plugin, but not via direct patch update.
+*  **End of life version**: The version isn't actively supported anymore. You should update as soon as possible.
+
+Continue reading if you want to learn more about the different version types and release cycles.
+
 ## Release management at Shopware
 
 Releasing new versions of Shopware is essential to stay competitive in the market and offer merchants benefits through the introduction of new features, adjustments to existing ones, or enhancements to the underlying architecture of Shopware.
@@ -29,29 +42,23 @@ Knowing that each update requires effort from the community, we are careful to m
 
 ## Shopware SaaS, PaaS and Self-Hosted
 
-Shopware is available in different forms. There is the free Community Edition and the [Shopware Plans](https://www.shopware.com/en/pricing/). While the plans are based on the Community Edition, they bring a variety of benefits, giving merchants and agencies the much-needed edge over the competition. As for hosting, Shopware brings, apart from self-hosting, two additional ways of hosting, each with its own benefits.
+Shopware is available in different distribution types and plans. There is the free Community Edition and the [Shopware Plans](https://www.shopware.com/en/pricing/). While the plans include everything from the Community Edition, they bring a variety of benefits, giving merchants and agencies the much-needed edge over the competition. As for hosting, Shopware brings, apart from self-hosting, two additional ways of hosting, each with its own benefits.
 
-[Shopware SaaS](https://www.shopware.com/en/shopware-cloud/), hosted by Shopware, offers merchants a convenient turn-key solution with **weekly updates**.
-
-**Shopware SaaS is always up-to-date, as we at Shopware maintain everything for you.**
+[Shopware SaaS](https://www.shopware.com/en/shopware-cloud/), hosted by Shopware, offers merchants a convenient turn-key solution with **weekly updates**. This is the easiest version of Shopware to use as you don't have to worry about hosting and your system will always automatically run on the latest version of Shopware. This means that all new features are always directly available to you.
 
 With [Shopware PaaS](https://www.shopware.com/en/shopware-paas/), also hosted by Shopware, you are in charge of updating the system.
 
-The same is true for the On-Premise version, where you download and host Shopware yourself or have someone else do it for you. In these versions, minor **releases** occur **monthly**.
-
-If you are an extension developer or use your private extension in a cloud shop, major releases could bring the need to update your code.
-
-These major releases in the cloud happen at the same time as the on-premise major release, to make things easier for you.
+The same is true for the self-hosted version, where you download and host Shopware yourself or have someone else do it for you. In these versions, **minor releases** occur **monthly**.
 
 ## Types of releases
 
-There are three release types. They are named:
+There are three release types:
 
 * Major release
 * Minor release
 * Patch release
 
-The type can be inferred from the version number that is attached to a release. Shopware is using semantic versioning, with the exception of adding a "6" to the beginning, indicating it is a "Shopware 6" release in contrast to the predecessor, Shopware 5.
+The type can be inferred from the version number that is attached to a release. Shopware is using semantic versioning, except of adding a "6" to the beginning, indicating it is a "Shopware 6" release in contrast to the predecessor, Shopware 5.
 
 So in short, the version number is built like this: **6.Major.Minor.Patch**
 
@@ -66,10 +73,12 @@ For questions on how to install a release please refer to the [documentation](ht
 
 ## Release cycles
 
+* Major  
+    * Once a year.
 * Minor
-	* Every first Monday of the month
+	* Every first Monday of the month.
 * Patch
-	* Anytime, but only when necessary
+	* Anytime, but only on demand.
 
 ## What effects does a release have
 
@@ -91,6 +100,8 @@ Each Major Release is accompanied by a **Release Candidate (RC)**, which is typi
 
 Depending on the feedback the community gives us during the RC phase, it might be prolonged.
 
+If you are an extension developer or use your private extension in a cloud shop, major releases could bring the need to update your code. These major releases in the cloud happen at the same time as the on-premise major release, to make things easier for you.
+
 ### Minor releases
 
 Minor releases can be installed seamlessly without requiring modifications to extensions. These updates encompass all changes implemented in Shopware Cloud since the last minor release for **self-hosted**.
@@ -103,7 +114,7 @@ Patch releases can be installed without the need for changes to extensions.
 
 Given the broad array of scenarios Shopware is deployed in, there are some we can't predict or prepare for. If such a scenario occurs and the underlying code needs to be patched, we release the fix as soon as possible. As these releases are immediate and without notice, they only include important and urgent changes to Shopware. In rare cases there can be breaking changes, but only if any other measures would pose a risk to merchants.
 
-A special kind of Patch is a release containing a security fix. These releases are usually small and contain only the fix itself, with some exceptions. These releases must be implemented as soon as possible to keep your shop and customers save.
+A special kind of patch is a release containing a security fix. These releases are usually small and contain only the fix itself, with some exceptions. These releases must be implemented as soon as possible to keep your shop and customers save.
 
 *Please note: if updating is not possible for whatever reason, there is the security plugin which implements all security patches. It is, however, preferable to update, since patching code through a plugin can potentially cause side effects.*
 
