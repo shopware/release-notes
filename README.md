@@ -8,7 +8,7 @@
 
 ```
 cd /www/
-git clone git@github.com/shopware/release-notes.git
+git clone git@github.com:shopware/release-notes.git
 cd release-notes
 ```
 
