@@ -28,6 +28,20 @@ To make it easier to configure and to have a better overview of the configuratio
 
 To prevent exceeding the message size limit when indexing many entities at once, we improved the indexing process to split the entities into smaller chunks.
 
+### Migrate admin-menu.store to pinia
+
+The `adminMenu` store has been migrated from Vuex to Pinia. The store is now available as a Pinia store and can be accessed via `Shopware.Store.get(‘adminMenu’)`.
+
+### Added support for opensearch sigv4 credential provider
+
+We added the support for authentication with AWS OpenSearch using the SigV4 credential provider
+
+### Added interface to support copy in batches
+
+As a manufacturer of a flysystem adapter I want to be able to use the writeBatch-possibilities with a dedicated Interface until flysystem supports it out-of-the-box.
+
+### Added vue to shopware object
+
 ## Fixed bugs
 
 ## Credits
