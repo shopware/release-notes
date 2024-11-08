@@ -1,0 +1,54 @@
+---
+nav:
+  title: v6.6.?.?
+meta:
+  date: "????-??-??"
+---
+
+# Release notes Shopware 6.6.?.?
+
+## Abstract
+
+This minor release contains some interesting features as well as technical improvements like Accessibility improvements and OpenTelemetry enhancements.
+
+## System requirements
+
+* tested on PHP 8.2 and 8.3
+* tested on MySQL 8 and MariaDB 10.11
+
+## Improvements
+
+### Improve category and product indexing for many entities at once
+
+Before the CategoryIndexer, every child of the to-be-updated categories was put into one indexing message.
+This single message could stay within the message size limit if there are fewer categories.
+The children and parents are now chunked and put into new messages.
+
+### Fill the last_usage_at column in the integration table during the authentication process between the App/Service and the Shop.
+
+The last_usage_at date is now filled when an integration is used.
+
+### Public metrics configuration interfaces
+
+Changed parts of the future public interface (metrics emitting view and metrics transport view) from @internal to @experimental
+
+### Add global exports to Shopware object
+
+Added all Vue exports to `Shopware.Vue`
+
+## Fixed bugs
+
+## Credits
+
+Thanks to all diligent friends for helping us make Shopware better and better with each pull request!
+
+## More resources
+
+* [Detailed diff on Github](https://github.com/shopware/shopware/compare/v6.6.6.1...v6.6.7.0) to the former version
+* [Changelog on GitHub](https://github.com/shopware/shopware/blob/v6.6.7.0/CHANGELOG.md) for this version.
+* [Installation overview](https://developer.shopware.com/docs/guides/installation/)
+* [Update from a previous installation](https://developer.shopware.com/docs/guides/installation/template.html#update-shopware)
+
+## Get in touch
+
+Discuss about decisions, bugs you might stumble upon, etc in our [community slack](https://shopwarecommunity.slack.com/). See you there ;)
