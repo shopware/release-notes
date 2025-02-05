@@ -1,0 +1,33 @@
+---
+nav:
+  title: v6.5.8.16
+meta:
+  date: "2025-02-10"
+---
+
+# Release notes Shopware 6.5.8.16
+
+## Abstract
+
+This patch release contains ~20 bug fixes
+
+## System requirements
+
+* tested on PHP 8.2 and 8.3
+* tested on MySQL 8.0.33, MariaDB 10.4. 10.5, 10.11 & 11.0
+
+## Fixed bugs
+
+
+## Credits
+
+## More resources
+
+* [Detailed diff on Github](https://github.com/shopware/shopware/compare/v6.5.8.15...v6.5.8.16) to the former version
+* [Changelog on GitHub](https://github.com/shopware/shopware/blob/v6.5.8.16/CHANGELOG.md) for this version.
+* [Installation overview](https://developer.shopware.com/docs/guides/installation/)
+* [Update from a previous installation](https://developer.shopware.com/docs/guides/installation/template.html#update-shopware)
+
+## Get in touch
+
+Discuss about decisions, bugs you might stumble upon, etc in our [community slack](https://slack.shopware.com). See you there ;)
