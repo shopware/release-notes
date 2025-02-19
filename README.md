@@ -1,6 +1,6 @@
 # Shopware release notes
 
-*This repository is embedded into [developer-portal](https://github.com/shopware/developer-portal) under the [/release-notes/](https://developer.shopware.com/release-notes/). Every PR triggers a [healthcheck](./.github/workflows/developer-portal-healthcheck.yml), and every push to the `main` branch triggers a new [deployment](./.github/workflows/deploy-developer-portal.yml) in the `developer-portal`.*
+*This repository is embedded into [developer-portal](https://github.com/shopware/developer-portal) under the [/release-notes/](https://developer.shopware.com/release-notes/). This repository is also connected to the Shopware Dev Docs connector GitHub app which manages commit status checks in PRs and triggers production deployments.
 
 ## Development
 
