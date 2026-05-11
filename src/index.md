@@ -44,7 +44,7 @@ Knowing that each update requires effort from the community, we are careful to m
 
 Shopware is available in different distribution types and plans. There is the free Community Edition and the [Shopware Plans](https://www.shopware.com/en/pricing/). While the plans include everything from the Community Edition, they bring a variety of benefits, giving merchants and agencies the much-needed edge over the competition. As for hosting, Shopware brings, apart from self-hosting, two additional ways of hosting, each with its own benefits.
 
-[Shopware SaaS](https://www.shopware.com/en/shopware-cloud/), hosted by Shopware, offers merchants a convenient turn-key solution with **weekly updates**. This is the easiest version of Shopware to use as you don't have to worry about hosting and your system will always automatically run on the latest version of Shopware. This means that all new features are always directly available to you.
+[Shopware SaaS](https://www.shopware.com/en/shopware-cloud/), hosted by Shopware, offers merchants a convenient turn-key solution with **monthly updates**. This is the easiest version of Shopware to use as you don't have to worry about hosting and your system will always automatically run on the latest version of Shopware. This means that all new features are always directly available to you.
 
 With [Shopware PaaS](https://www.shopware.com/en/shopware-paas/), also hosted by Shopware, you are in charge of updating the system.
 
