@@ -20,7 +20,7 @@ pnpm docs:env
 
 3. Link articles from your local copy of the release-notes into the developer-portal.
 
-```
+```bash
 pnpm docs:link
 ```
 
