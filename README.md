@@ -14,7 +14,7 @@ cd release-notes
 
 2. Make sure you have your local copy of the developer-portal repository in the same parent directory.
 
-```
+```bash
 pnpm docs:env
 ```
 
