@@ -6,7 +6,7 @@
 
 1. Clone this repository
 
-```
+```bash
 cd /www/
 git clone git@github.com:shopware/release-notes.git
 cd release-notes
@@ -14,18 +14,18 @@ cd release-notes
 
 2. Make sure you have your local copy of the developer-portal repository in the same parent directory.
 
-```
+```bash
 pnpm docs:env
 ```
 
 3. Link articles from your local copy of the release-notes into the developer-portal.
 
-```
+```bash
 pnpm docs:link
 ```
 
 4. Start the development server.
 
-```
+```bash
 pnpm docs:preview
 ```
