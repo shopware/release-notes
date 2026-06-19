@@ -26,6 +26,6 @@ pnpm docs:link
 
 4. Start the development server.
 
-```bash
+```sh
 pnpm docs:preview
 ```
