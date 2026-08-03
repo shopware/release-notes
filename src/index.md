@@ -32,7 +32,7 @@ This version chart shows which Shopware versions are currently supported in whic
 *  **Security fixes only**: The version is provided with security fixes only. The fixes are provided via a security plugin, but not via direct patch update.
 *  **End of life version**: The version isn't actively supported anymore. You should update as soon as possible.
 
-*Please Note: Support transitions are tied to major releases, not fixed timelines. The previous major version enters Extended Support only when the next major version is released.*
+*Please note: Support transitions are tied to major releases, not fixed timelines. The previous major version enters Extended Support only when the next major version is released.*
 
 Continue reading if you want to learn more about the different version types and release cycles.
 
