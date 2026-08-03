@@ -28,9 +28,11 @@ items:
 This version chart shows which Shopware versions are currently supported in which way. You will see the following states:
 
 *  **Maintained version**: This is the latest minor version of the current major cycle and is actively supported with patch updates if necessary. Every minor version will be superseded by the next minor version.
-*  **[Extended support](https://www.shopware.com/en/news/shopwares-new-release-policy/)**: The last minor version of a major cycle will get extended patch updates with selective bug fixes and security updates.
+*  **[Extended support](https://www.shopware.com/en/news/shopwares-new-release-policy/)**: The last minor version of a major cycle enters Extended Support once the next major version is released. During this phase, it receives selective bug fixes and security updates until the following major version becomes available.
 *  **Security fixes only**: The version is provided with security fixes only. The fixes are provided via a security plugin, but not via direct patch update.
 *  **End of life version**: The version isn't actively supported anymore. You should update as soon as possible.
+
+*Please note: Support transitions are tied to major releases, not fixed timelines. The previous major version enters Extended Support only when the next major version is released.*
 
 Continue reading if you want to learn more about the different version types and release cycles.
 
@@ -74,7 +76,7 @@ For questions on how to install a release please refer to the [documentation](ht
 ## Release cycles
 
 * Major  
-    * Once a year.
+  * Once a year.
 * Minor
 	* Every first Monday of the month.
 * Patch
