@@ -23,7 +23,94 @@ items:
 
 ## Release Calendar
 
-![Version Chart](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg)
+<div class="release-calendar">
+  <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years" alt="Release calendar years" />
+  <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-4" alt="Shopware 6.4 support" />
+
+  <details>
+    <summary aria-label="Shopware 6.5 releases">
+      <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-5" alt="Shopware 6.5 support" />
+    </summary>
+    <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-5" alt="Shopware 6.5 minor releases" />
+  </details>
+
+  <details>
+    <summary aria-label="Shopware 6.6 releases">
+      <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-6" alt="Shopware 6.6 support" />
+    </summary>
+    <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-6" alt="Shopware 6.6 minor releases" />
+  </details>
+
+  <details>
+    <summary aria-label="Shopware 6.7 releases">
+      <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-7" alt="Shopware 6.7 support" />
+    </summary>
+    <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-7" alt="Shopware 6.7 minor releases" />
+  </details>
+
+  <details>
+    <summary aria-label="Shopware 6.8 releases">
+      <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-8" alt="Shopware 6.8 support" />
+    </summary>
+    <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-8" alt="Shopware 6.8 minor releases" />
+  </details>
+
+  <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-legend" alt="Release calendar legend" />
+</div>
+
+<style>
+.release-calendar img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.dark .release-calendar img {
+  filter: invert(1) hue-rotate(-180deg);
+}
+
+.release-calendar details {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.release-calendar details > summary {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.release-calendar details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.release-calendar details > summary::after {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 6px solid currentColor;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.release-calendar details[open] > summary::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.release-calendar details > summary:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1, #189eff);
+  outline-offset: 2px;
+}
+</style>
 
 This version chart shows which Shopware versions are currently supported in which way. You will see the following states:
 
@@ -126,3 +213,4 @@ A special kind of patch is a release containing a security fix. These releases a
     <p>Go download the latest Shopware version here</p>
     <a href="https://www.shopware.com/en/changelog/" class="btn">Shopware 6 Changelog</a>
 </div>
+
