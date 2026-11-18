@@ -23,7 +23,63 @@ items:
 
 ## Release Calendar
 
-![Version Chart](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg)
+<div class="release-calendar">
+
+![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
+![Shopware 6.4 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-4)
+
+![Shopware 6.5 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-5)
+
+::: details Shopware 6.5 minor releases
+
+![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
+![Shopware 6.5 minor releases](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-5)
+
+:::
+
+![Shopware 6.6 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-6)
+
+::: details Shopware 6.6 minor releases
+
+![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
+![Shopware 6.6 minor releases](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-6)
+
+:::
+
+![Shopware 6.7 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-7)
+
+::: details Shopware 6.7 minor releases
+
+![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
+![Shopware 6.7 minor releases](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-7)
+
+:::
+
+![Shopware 6.8 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-8)
+
+::: details Shopware 6.8 minor releases
+
+![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
+![Shopware 6.8 minor releases](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-8)
+
+:::
+
+![Release calendar legend](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-legend)
+
+</div>
+
+<style>
+.release-calendar img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.dark .release-calendar img {
+  filter: invert(1) hue-rotate(-180deg);
+}
+</style>
 
 This version chart shows which Shopware versions are currently supported in which way. You will see the following states:
 
