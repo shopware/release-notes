@@ -24,48 +24,38 @@ items:
 ## Release Calendar
 
 <div class="release-calendar">
+  <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years" alt="Release calendar years" />
+  <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-4" alt="Shopware 6.4 support" />
 
-![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
-![Shopware 6.4 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-4)
+  <details>
+    <summary aria-label="Shopware 6.5 releases">
+      <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-5" alt="Shopware 6.5 support" />
+    </summary>
+    <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-5" alt="Shopware 6.5 minor releases" />
+  </details>
 
-![Shopware 6.5 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-5)
+  <details>
+    <summary aria-label="Shopware 6.6 releases">
+      <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-6" alt="Shopware 6.6 support" />
+    </summary>
+    <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-6" alt="Shopware 6.6 minor releases" />
+  </details>
 
-::: details Shopware 6.5 minor releases
+  <details>
+    <summary aria-label="Shopware 6.7 releases">
+      <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-7" alt="Shopware 6.7 support" />
+    </summary>
+    <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-7" alt="Shopware 6.7 minor releases" />
+  </details>
 
-![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
-![Shopware 6.5 minor releases](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-5)
+  <details>
+    <summary aria-label="Shopware 6.8 releases">
+      <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-8" alt="Shopware 6.8 support" />
+    </summary>
+    <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-8" alt="Shopware 6.8 minor releases" />
+  </details>
 
-:::
-
-![Shopware 6.6 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-6)
-
-::: details Shopware 6.6 minor releases
-
-![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
-![Shopware 6.6 minor releases](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-6)
-
-:::
-
-![Shopware 6.7 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-7)
-
-::: details Shopware 6.7 minor releases
-
-![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
-![Shopware 6.7 minor releases](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-7)
-
-:::
-
-![Shopware 6.8 support](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#branch-6-8)
-
-::: details Shopware 6.8 minor releases
-
-![Release calendar years](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-years)
-![Shopware 6.8 minor releases](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#minors-6-8)
-
-:::
-
-![Release calendar legend](https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-legend)
-
+  <img src="https://shopware-platform-assets.s3.eu-central-1.amazonaws.com/release-schedule/schedule.svg#calendar-legend" alt="Release calendar legend" />
 </div>
 
 <style>
@@ -78,6 +68,47 @@ items:
 
 .dark .release-calendar img {
   filter: invert(1) hue-rotate(-180deg);
+}
+
+.release-calendar details {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.release-calendar details > summary {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.release-calendar details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.release-calendar details > summary::after {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 6px solid currentColor;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.release-calendar details[open] > summary::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.release-calendar details > summary:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1, #189eff);
+  outline-offset: 2px;
 }
 </style>
 
