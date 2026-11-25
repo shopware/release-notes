@@ -81,6 +81,8 @@ items:
 }
 </style>
 
+> **Shopware 6.8 is planned for 2027.** The position of 6.8 on the calendar is a placeholder for the year only. We’ll announce a release date or window once we can confirm the timing.
+
 This version chart shows which Shopware versions are currently supported in which way. You will see the following states:
 
 *  **Maintained version**: This is the latest minor version of the current major cycle and is actively supported with patch updates if necessary. Every minor version will be superseded by the next minor version.
